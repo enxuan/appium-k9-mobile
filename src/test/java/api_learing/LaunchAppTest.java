@@ -34,7 +34,5 @@ public class LaunchAppTest {
         if (appiumDriver != null) {
             appiumDriver.quit();
         }
-
-
     }
 }
