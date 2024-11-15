@@ -3,12 +3,11 @@ package api_learning;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.net.URL;
 
-public class Lesson_14 {
+public class LaunchAppTest {
 
     public static void main(String[] args) {
         // Send a request to appium server > ask to launch the app
