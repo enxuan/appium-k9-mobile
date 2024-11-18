@@ -44,7 +44,7 @@ public class DriverFactory implements MobileCapabilityTypeEx {
         }
 
         // Implicit Wait | Interval time: 500ms
-        appiumDriver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
+        appiumDriver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 
         return appiumDriver;
     }
