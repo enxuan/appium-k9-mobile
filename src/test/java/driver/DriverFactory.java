@@ -21,7 +21,7 @@ public class DriverFactory implements MobileCapabilityTypeEx {
         desiredCapabilities.setCapability(PLATFORM_NAME, "Android");
         desiredCapabilities.setCapability(AUTOMATION_NAME, "uiautomator2");
         desiredCapabilities.setCapability(UDID, "RF8W40F0GKF");
-        desiredCapabilities.setCapability(APP_PACKAGE, "com.wdiodemoapp");
+        desiredCapabilities.setCapability(APP_PACKAGE, AppPackages.WEBDRIVER_IO);
         desiredCapabilities.setCapability(APP_ACTIVITY, "com.wdiodemoapp.MainActivity");
 //        desiredCapabilities.setCapability("chromedriverExecutable","/usr/local/lib/node_modules/appium/node_modules/appium-chromedriver/chromedriver/chromedriver_mac64_v114.0.5735.90");
 
